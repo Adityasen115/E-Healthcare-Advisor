@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    background-color: rgb(230, 252, 244);
+}
+.top-bar{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+}
+.top-text{
+    position: absolute;
+    left: 55px;
+    display: inline-block;
+    font-weight: 400;
+    height: 10px;
+    font-family: 'Anton', sans-serif;
+    margin: 0;
+}
+.logo{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 6px;
+    margin-left: 10px;
+}
+.Signup-page{
+    background-color: rgb(46,164,79);
+    color: white;
+    height: 36px;
+    width: 100px;
+    border-radius: 7px;
+    font-weight: 700;
+    margin-top: 6px;
+    border: none;
+    position: absolute;
+    right: 2%;
+
+}
+.Signup-page:hover{
+    opacity: 0.8;
+}
+.middle-image{
+    height: 43rem;
+    width: 100%;
+}
+.lower{
+    text-align: center;
+}
+.services{
+    
+    padding-top: 5rem;
+    text-decoration: underline;
+}
+.srv-image{
+    display: inline-block;
+    padding-top: 5rem;
+    padding-bottom: 0;
+    margin-left: 2px;
+    width: 25%;
+    height: 25rem;
+    text-align: center;
+    transition: box-shadow 0.30s;
+}
+.align-middle:hover{
+
+    box-shadow:  5px 5px 10px rgba(0,0,0,0.15);   
+    width: 19rem;
+    height: 25remm;
+}
+.align-middle{
+    height: 17rem;
+    width: 17rem;
+    border-radius: 10%;
+}
+footer{
+    background-color: rgb(189, 187, 187);
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+.contact-us{
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(43, 150, 166);
+    border-radius: 7%;
+    padding: 2px;
+    margin-top: 10px;
+}
+.socials{
+    display: inline-block;
+}
+.fa-brands{
+    text-decoration: none;
+    width: 5px;
+    height: 5px;
+    margin-left: 10px;
+}
+.footer-link{
+    text-decoration: none;
+    margin-left: 5px;
+}
+.copyright{
+    margin: 0;
+    padding-bottom: 10px;
+    
+}
